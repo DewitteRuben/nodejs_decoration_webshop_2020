@@ -5,8 +5,8 @@
     "version": "1.0.0",
     "description": "API Service endpoints",
     "contact": {
-      "email": "sidhant@panda.fyi",
-      "name": "Sidhant Panda"
+      "email": "",
+      "name": ""
     }
   },
   "servers": [
@@ -16,25 +16,25 @@
   ],
   "tags": [
     {
-      "name": "book",
-      "description": "Books APIs"
+      "name": "shopitem",
+      "description": "Shopitems APIs"
     }
   ],
   "paths": {
-    "/book/add": {
+    "api/shopitem": {
       "post": {
         "tags": [
           "book"
         ],
-        "summary": "Add a book to the database",
-        "operationId": "book-add",
+        "summary": "Add a shopitem to the database",
+        "operationId": "shopitem-add",
         "requestBody": {
           "description": "New user signing up",
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DraftBookSchema"
+                "$ref": "#/components/schemas/DraftShopItemSchema"
               }
             }
           }

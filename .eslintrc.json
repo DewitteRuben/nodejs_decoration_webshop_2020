@@ -38,6 +38,7 @@
         "properties": "never"
       }
     ],
+    "linebreak-style": "off",
     "object-curly-newline": "off",
     "max-len": "off",
     "arrow-parens": "off",
@@ -53,7 +54,10 @@
     "dot-notation": "off",
     "class-methods-use-this": "off",
     "handle-callback-err": "error",
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "function-paren-newline": "off"
   },
   "overrides": [
     {
