@@ -3,6 +3,7 @@ version: '3'
 services:
   mongo:
     image: mongo
+    env_file: "./.env"
     container_name: mongo-dev
     restart: always
     networks:
