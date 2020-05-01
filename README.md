@@ -1,7 +1,10 @@
 # NodeJS backend of Decoration Webshop 2020
 
+<<<<<<< HEAD
 View the Frontend of this project [here](https://github.com/DewitteRuben/reactjs_decoration_webshop_2020).
 
+=======
+>>>>>>> a8e12d15fd547d4e22810cfc08378a79504515b7
 ## Setup
 
 ### MongoDb
