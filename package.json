@@ -67,8 +67,5 @@
     "typescript": "3.7.5"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sidhantpanda/docker-express-typescript-boilerplate/issues"
-  },
-  "homepage": "https://github.com/sidhantpanda/docker-express-typescript-boilerplate#readme"
+  "homepage": "https://github.com/DewitteRuben/nodejs_decoration_webshop_2020#readme"
 }
